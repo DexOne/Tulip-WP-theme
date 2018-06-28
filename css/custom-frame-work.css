@@ -1,0 +1,21 @@
+/* Start Frame Work */
+.h3, h3 {
+    font-size: 24px;
+    background: #eee;
+    text-align: center;
+    color: #0d7cab;
+}
+.rtl{float: right !important;}
+.none-decoration,.none-decoration:hover{
+    text-decoration: none !important;
+    color:#ddd;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: .4s all ease-in-out;
+}
+
+.main-bg{
+    background: #eee !important;
+}
+/* End Frame Work */

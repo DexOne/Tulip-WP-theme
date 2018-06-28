@@ -1,0 +1,113 @@
+/* Moblie & Tablet Rules */
+@media (max-width: 767px) {
+    .custom-logo
+    {
+        width: -webkit-fill-available;
+        width: -moz-fill-available;
+        height: auto;
+    }
+    .navbar-header{
+    background: #3b5898;
+    box-shadow: -1px -1px 3px 0px, 1px 1px 3px 0px
+    }
+    .header {
+    background: #3b5898 !important;}
+    .navbar-toggle{
+        border:none;
+    }
+    
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #fff;
+        border-radius: 50%;
+    }
+    
+    .section{
+        width: 100% !important;
+    }
+    
+    .logo{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .site-name{
+        font-size: 27px;
+        font-weight: 900;
+    }
+    
+    .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+        color: #3b5898 !important;
+    }
+    
+    .navbar-inverse .navbar-toggle .icon-bar{
+            background-color: #333;
+    }
+    
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover{
+        color: #3b5898;
+    }
+	.author-posts > div{width:100%}
+	
+	.numbering_pagination {
+    padding: 13px;
+    background: #ccc;
+    width: auto !important;
+    margin: 9px auto;
+    text-align: center;
+}
+    .navbar-brand img{
+        width: 55% !important;
+    }
+    .about-custom-nav{
+        display: none;
+    }
+}
+
+/* Small Screen Rules */
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+	.fatfooter{
+		display:block !important;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Medium Screen Rules */
+@media (min-width: 992px) {
+.container {}
+}
+
+/* Large Screen Rules */
+@media (min-width: 1200px) {
+}
+
+/* Customize Scrolling */
+
+::-webkit-scrollbar{
+    width: 22px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(13, 124, 171,.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .4); 
+    -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, .4);
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(13, 124, 171, 0.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .4); 
+    -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, .4);
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(13, 124, 171, 0.1); 
+}

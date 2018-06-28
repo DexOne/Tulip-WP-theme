@@ -1,0 +1,359 @@
+/*
+Theme Name: Tulip
+Theme URI: http://wordpress.org/themes/##
+Author: Heisenberg
+Author URI: http://maqal-store.com/
+Description: The 2017 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: tulip
+*/
+
+/* Start General Roles */
+img{max-width: 100% !important;}
+li{list-style:none;}
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+
+
+ html {}
+
+*{
+    margin: 0px;
+    padding: 0px;
+font-family: 'Tajawal', sans-serif;
+}
+a{
+	font-family: 'Tajawal', sans-serif;
+    text-decoration: none !important;
+}
+html{margin: 0px !important;
+overflow-x: auto;
+}
+/* End General Roles */
+
+body{
+   	height: auto; 
+	background-color: #eee;
+    overflow-x: auto;
+}
+/* Start  Main Header */
+
+/* End Main Header */
+
+/* Start Footer */
+.footer{
+    background-color: #333;
+    color: #eee;
+    padding: 5px;
+	width:100%;
+}
+/* End Footer */
+
+.main-post {margin-bottom: 36px;}
+.main-post-stats{
+    text-align: center;
+    padding: 5px;
+    width: 93%;
+    margin: auto;
+}
+.post-content{
+    margin-top: 0px;
+    background: #93a2c2;
+    border-radius: 15% 15% 0 0;
+    padding:0px;
+
+}
+
+.post-title a{
+  color: #ddd;
+}
+.post-author i{
+	display: unset;
+	color: #0d7cab;
+}
+
+.post-author , .post-comments{
+    color: #0d7cab;
+}
+.post-author a , .post-comments a, .post-author a:hover , .post-comments a:hover {
+    color: #0d7cab;
+    text-decoration: none;
+}
+
+.caret{
+    padding: 2px;
+    margin: 2px auto;
+    border-top: 4px solid #ccc;
+}
+/* Overwrite bootstrap */
+
+.img-thumbnail{
+    display: block;
+    margin: 25px auto;
+    padding: 0px;
+    width: 75%;
+    border: none;
+    box-shadow: 0px 0px 4px 0px rgba(13, 124, 171, 0.5),0px 0px 6px 0px rgba(13, 124, 171, 0.51);
+    height: 200px;
+}
+
+
+
+
+.hold-title{
+    text-align: center;
+    background: #eee;
+}
+.post-pagination{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    background: #0d7cab;
+}
+
+.post-pagination a,
+.post-pagination span {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #0d7cab;
+    color: #eee;
+}
+
+.post-pagination a:first-of-type{
+  margin-left: 10px;
+}
+
+.post-pagination span{
+  opacity: .5
+}
+
+
+.read-more {
+    color: #222;
+    text-decoration: underline;
+    background: #ccc;
+}
+.read-more:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.widget_recent_entries ul li {
+	width:95%;
+	margin:0 auto;
+}
+
+.fatfooter{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 17px;
+}
+
+.posts-by-author{
+	background: #3b5898;
+    width: 85%;
+    margin: 0 auto;
+    color: #ccc;
+    padding-top: 12px;
+}
+
+.numbering_pagination{
+	padding: 13px;
+	border: 1px solid #ccc;
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main-category{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+    color: #3a5695 !important;
+    border-radius: 9px;
+}
+
+
+.main-category div > p{
+	color:#395593
+}
+
+.widget {
+    margin-bottom: 7px;
+    background: #0d7cab;
+    padding: 10px;
+}
+
+.widget-title , .widget-content{
+	padding:10px;
+	margin-bottom:7px;
+	background: #eee
+}
+
+.site-name-link{color: #6c567b;visibility: hidden;}
+.site-name-link:hover{text-decoration:none}
+
+/* start search form */
+form{
+    padding: 7px;
+    background: #ddd;
+}
+.screen-reader-text{
+    padding: 5px;
+    margin-top: 9px;
+    width: 15%;
+    border-radius: 9px;
+    background: #eee;
+    border: none;
+    color: #3b5898;
+    font-weight: bold;
+    font-size: 16px;
+}
+.screen-reader-text:hover{
+    background: #fff;
+}
+.form-control{
+    width: 50%;
+    margin: 0 auto;
+}
+.form-control::placeholder{
+    text-align: right;
+}
+
+/* end search form */
+
+/* Start Search . php style roles */
+.search-page-form{
+    padding-bottom: 9px;
+    border-right: 2px solid #93a2c2;
+    width: 85%;
+    margin: 7px auto;
+    padding: 7px;
+    color: #555;
+    font-size: 22px;
+    box-shadow: 0px 0px 2px 0px #aaa;
+    text-align: center;
+}
+.page-header {
+    padding-bottom: 9px;
+    border-right: 2px solid #93a2c2;
+    width: 85%;
+    margin: 7px auto;
+    padding: 7px;
+    color: #999;
+    font-size: 22px;
+    box-shadow: 0px 0px 1px 1px #aaa;
+}
+.tulip-search{
+    background: #fff;
+    border: 1px Solid #ccc;
+    margin-bottom: 22px;
+}
+.main-search{text-align: center;}
+.search-post-title {
+    display: block;
+    font-size: 28px;
+    margin-bottom: 10px;
+    background: #ccc;
+    color: #444;
+}
+
+.search-post-excerpt > p{
+    border-radius: 0%;
+    padding: 3px;
+    width: 75%;
+    margin: 7px auto;
+    color: #6391f7;
+    text-shadow: none;
+    font-size: 17px;
+}
+.search-post-link{
+    padding: 7px;
+    border: 1px solid #ddd;
+    background: #FFF;
+}
+.search-post-link a:hover{
+    text-decoration: none;
+    color:#444;
+}
+/* End Search . php style roles*/
+
+
+.main-post-content{
+    text-align: center;
+    margin-top: 44px;
+    border-bottom: 2px solid #0d7cab;
+    padding-top: 14px;
+    background: #eee;
+    padding-bottom: 14px;
+}
+.col-md-8.main-post-content p{
+        color: #6c567b;
+}
+
+.hold-post-author,
+.hold-post-comments{
+    padding: 2px;
+}
+
+.hold-post-comments,
+.hold-post-tags{
+        border-bottom: 2px solid #ddd;
+}
+
+.hold-post-cats,
+.hold-post-tags{
+    color: #0d7cab;
+}
+
+.style-row{
+    background: #0d7cab;
+}
+
+div#n2-ss-2 .n2-ss-slide,
+div#n2-ss-2 .n2-ss-slider-1{
+    height: 400px !important;
+}
+
+div#n2-ss-2.n2-ss-desktop .n2-ss-widget-display-desktop.n2-ib, div#n2-ss-2.n2-ss-tablet .n2-ss-widget-display-tablet.n2-ib, div#n2-ss-2.n2-ss-mobile .n2-ss-widget-display-mobile.n2-ib{
+    top:160px !important;
+}
+
+.main-post-head{
+    padding: 0px;
+    background: #0d7cab;
+    text-align: center;
+    box-shadow: inset 0px 0px 2px 2px #eeeeee;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.main-post-h2{
+    color: #eeeeee;
+    font-weight: bolder;
+    font-size: 21px;
+    margin: 0px;
+    padding: 6px;
+    line-height: .8em;
+}
+
+.main-post-a{
+    color: #eee;
+}
+
+.main-post-h2 .main-post-a:hover{
+  text-decoration: none;
+    color: #fff;
+}
+
+.post-tags{
+    width: 100%;
+    font-size: 13px;
+    font-style: italic;
+    padding: 3px;
+}

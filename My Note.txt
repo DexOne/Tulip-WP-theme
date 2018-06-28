@@ -1,0 +1,18 @@
+- Function . php
+- Header . php
+- Footer . php
+- index . php
+-404 . php
+- Single . php
+- comments . php
+- author . php
+-category . php
+// specific page for specific caregory
+- category-{literature} . php
+- breadcrumb.php
+- search.php
+- searchform.php
+sidebar-{primary}.php
+// specific sidebar
+- sidebar-{literature}.php
+- theme-options

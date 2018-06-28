@@ -1,0 +1,141 @@
+.single-post{
+    background: #4498bb;
+}
+.post-page{
+    background: #4498bb;
+}
+.post-page p{
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.7em;
+    width: 75%;
+}
+.main-single-post{
+    background: #eee;
+}
+.main-single-post > .img-thumbnail{
+    border-radius: 4%;
+    width: auto;
+    height: auto;
+}
+a{
+}
+p{color: #0d7cab !important;}
+
+p ,
+.post-tags a,
+.post-categories a{
+    padding: 0px;
+    width: 80%;
+    margin: 0px auto;
+    font-size: 17px;
+}
+.read-more{}
+
+/* Comments */
+.post-page .comment-separator{
+    border-top: 1px solid #4498bb;
+    padding-bottom: 18px;
+    background: rgba(204, 204, 204, 0.5);
+    width:75%;
+    margin:0 auto;
+}
+
+.comment .children{
+    padding-left: 1.5em;
+    background: #ccc;
+}
+
+.comment-respond{
+    background: #ddd;
+}
+
+.says{display: none;}
+
+textarea {
+    resize: none;
+    max-width: 100%;
+}
+
+.post-categories a{
+    color: #0d7cab !important;
+}
+
+.post-edit-link{
+    background: #ddd;
+    position: relative;
+    top: 12px;
+    right: 12px;
+    padding: 12px;
+}
+
+.ho-date-comments{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background: #4498bb;
+    padding: 4px;
+    border: 1px solid #ccc;
+}
+
+.ho-po-date{
+    border-right: 1px solid #eee;
+}
+.po-date,
+.po-comments{
+    color: #333;
+    background: #eeeeee;
+    padding: 6px;
+}
+.ho-s-po-comments{
+    border-left: 1px solid #eee;
+}
+.po-comments i,
+.po-comments a,
+.po-comments a:hover{
+    color: #333;
+    text-decoration: none
+}
+
+.po-categories{
+    width: 100% !important;
+    background: #4498bb;
+    border: 1px solid #ccc;
+}
+
+.po-categories i,
+.po-categories a{
+    color: #ddd;
+}
+
+.po-tags {
+    background: #ddd;
+    width: 100% !important;
+}
+.po-tags a:hover,
+.po-categories a:hover{
+    text-decoration: none;
+    color: #555;
+}
+
+.post-title{
+    background: #4498bb;
+    padding: 5px;
+}
+
+/* Comments */
+
+.comments-list{
+    background: #0d7cab;
+    padding: 9px;
+}
+.comment-content,
+.comment-author,
+.comment-edit-link,
+.comment-metadata a,
+.comment-reply-link{
+    background: #eee;
+}
+
+.comment-reply-link{
+}

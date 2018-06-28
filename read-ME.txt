@@ -1,0 +1,5 @@
+= ============================================================	=
+=	NOTE that you neet to create a category			=
+=	with a slug {literature} or any custom category page	=
+=	as you want to display the custom category .		=
+= ============================================================	=

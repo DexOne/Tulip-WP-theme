@@ -1,0 +1,155 @@
+.author-page{
+    background: #3b5898;
+    border: none;
+    color: #95c1cc;
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 6px -6px #444;
+}
+
+.profile-header{
+    background: #eee;
+    color: #3b5898;
+    padding: 5px;
+    border-radius: 0 0 25px 25px;
+}
+
+.author-main-info{
+    padding: 7px;
+    background: #eee;
+    color: #3b5898;
+    border-radius: 25px;
+    margin: 7px auto;
+}
+
+.profile-header, .author-main-info{
+    box-shadow: inset 1px 1px 10px #3b5898;
+}
+
+.author-bio{
+    padding-left: 9px;
+    margin-top: 18px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.author-bio li{
+    margin: 5px;
+}
+
+.author-description{
+    padding: 5px;
+    text-align: center;
+}
+.author-description span{
+    display: block;
+    text-align: left;
+    margin-bottom: 9px;
+    padding-left: 9px;
+}
+.author-stats{
+    text-align: center;
+}
+
+.author-stats .stats{
+    padding: 9px;
+    margin: 9px;
+    font-size: 18px;
+    border-top: 1px solid #444;
+    border-radius: 25%;
+    box-shadow: 0 8px 6px -6px #444;
+}
+
+.stats span{
+    display: block;
+    font-size: 50px;
+}
+
+.author-posts {
+    background: #ddd;
+    border:1px solid #4498bb;
+}
+
+.single-rand-title{
+    background: #ddd;
+    padding: 5px;
+}
+.post-info{
+    line-height: 1.7em;
+    text-align: center;
+}
+
+.hold-title {
+
+}
+
+.custom-auto-thumbnail{
+	width: 85% !important;
+	height : auto !important;
+}
+/* for img responsive */
+.auto-height{
+	max-width:100% !important;
+	height: auto !important;
+}
+
+/* styling Author box in single page */
+.author-box{
+    background: #ddd;
+    margin-top: 18px;
+    text-align: center;
+    border-top: 2px solid #ddd;
+}
+
+.author-details{
+    width: 72%;
+    margin: 0 auto;
+    padding: 5px;
+    background: #4498bb;
+}
+
+.ho-author{
+    width: 100%;
+    margin: 19px auto !important;
+    padding: 15px;
+}
+
+.author-description{
+    background: #eee;
+    color: #0d7cab;
+    line-height: 1.8em;
+    width: 93%;
+    margin: 0px auto;
+    margin-bottom: 19px;
+}
+
+.first-name,
+.last-name,
+.nickname{
+line-height: 1.8em;
+}
+
+.ho-author-page{
+    display: inline-block;
+    width: 100%;
+    background: #4498bb
+}
+
+.ho-author-page div h5{
+    font-size: 14px;
+    color: #ddd;
+    background: #0d7cab;
+    padding: 5px;
+}
+
+.posts-count a{
+    color: #ddd
+}
+.posts-count a:hover{
+    color: #fff;
+}
+.comments-count{
+    line-height: 2em;
+}
+/* End styling Author box in single page */
